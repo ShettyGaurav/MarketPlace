@@ -1,0 +1,32 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzUzMzAxOTY4LCJleHAiOjE3NTMzMDI4Njh9.-c64vMuFJp9cVMAE5b2xGLfuSzmqoIp1ah5T6pdbP9c",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTc1MzMwMTk2OCwiZXhwIjoxNzUzOTA2NzY4fQ.Fbjc4sLBj2ki4w_L23MztdxgIZA9W3iud7zdO87lCWM",
+  "user": {
+    "id": 10,
+    "email": "admin@gmail.com",
+    "role": "ADMIN"
+  }
+}
+
+
+
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsImVtYWlsIjoic2VsbGVyQGhvdG1haWwuY29tIiwicm9sZSI6IlNFTExFUiIsImlhdCI6MTc1MzMwMjEyMywiZXhwIjoxNzUzMzAzMDIzfQ.IeOna3S42-U3YUA6nVPSZ7NMDbTCZhD0TdJplRyhSJI",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsImlhdCI6MTc1MzMwMjEyMywiZXhwIjoxNzUzOTA2OTIzfQ.IXsNn5-8Vs4DVeS4l0Ea1q70hiueHI0iPLGOucBljYU",
+  "user": {
+    "id": 11,
+    "email": "seller@hotmail.com",
+    "role": "SELLER"
+  }
+}
+
+
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImVtYWlsIjoiYnV5ZXJAaG90bWFpbC5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc1MzMwMjI5MCwiZXhwIjoxNzUzMzAzMTkwfQ.Sn-TqU569rR54kJYkbVrEyK-J8kTMDghm51xX8Qw8uA",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTc1MzMwMjI5MCwiZXhwIjoxNzUzOTA3MDkwfQ.d-WxaleFN4qMExz-hYPDtN1vNvHY9StZfX4jKwejZrs",
+  "user": {
+    "id": 12,
+    "email": "buyer@hotmail.com",
+    "role": "USER"
+  }
+}

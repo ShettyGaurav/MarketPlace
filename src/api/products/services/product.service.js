@@ -1,5 +1,5 @@
 const pool = require('../../../config/database');
-const { logger } = require('../../../utils/logger.js');
+const { logger } = require('../../../utils/logger');
 
 const createProduct = async ({ name, description, price, sellerId, imageUrl }) => {
   try {
@@ -8,7 +8,7 @@ const createProduct = async ({ name, description, price, sellerId, imageUrl }) =
       VALUES ($1, $2, $3, $4, $5)
       RETURNING id, name, description, price, seller_id, image_url, created_at, updated_at
     `;
-    const result = await pool.query(query, [name, description, price, sellerId, imageUrl]);
+    const result = await pool.query(query, [name, description, price, sellerId, imageUrl || null]);
     logger.info(`Product created: ${name} by seller ${sellerId}`);
     return result.rows[0];
   } catch (error) {
@@ -56,7 +56,7 @@ const updateProduct = async (id, { name, description, price, imageUrl }, sellerI
       WHERE id = $5 AND seller_id = $6
       RETURNING id, name, description, price, seller_id, image_url, created_at, updated_at
     `;
-    const result = await pool.query(query, [name, description, price, imageUrl, id, sellerId]);
+    const result = await pool.query(query, [name, description, price, imageUrl || null, id, sellerId]);
     if (!result.rows[0]) {
       throw new Error('Product not found or not authorized');
     }
